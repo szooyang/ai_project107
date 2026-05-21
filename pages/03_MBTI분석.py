@@ -23,7 +23,7 @@ st.markdown("국가를 선택하면 MBTI 16유형 비율을 인터랙티브 그�
 # -----------------------------
 @st.cache_data
 def load_data():
-    df = pd.read_csv("countriesMBTI_16types(2).csv")
+    df = pd.read_csv("countriesMBTI_16types.csv")
     return df
 
 df = load_data()
